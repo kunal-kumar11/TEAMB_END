@@ -3,7 +3,7 @@ const app = express();
 const http = require("http");
 const { Server } = require("socket.io");
 const cors = require('cors');
-const ACTIONS = require("./ACTIONS");
+const ACTIONS = require("./Actions");
 
 app.use(cors({
   origin: 'https://mellifluous-crisp-a9f828.netlify.app',
